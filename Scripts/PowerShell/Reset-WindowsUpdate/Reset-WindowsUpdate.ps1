@@ -1,3 +1,4 @@
+echo "Possible Actions","DetectAndReset","Detect","Reset","ResetStandalone"
 <#
 .SYNOPSIS
     Resets the windows update component.
