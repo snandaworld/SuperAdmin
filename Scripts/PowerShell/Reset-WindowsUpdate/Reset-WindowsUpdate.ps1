@@ -62,7 +62,7 @@ Param (
     [Parameter(Mandatory=$true,Position=0)]
     [ValidateNotNullorEmpty()]
     [ValidateSet("DetectAndReset","Detect","Reset","ResetStandalone")]
-    [string]$Action = "Reset",
+    [string]$Action,
     [Parameter(Mandatory=$false,Position=1)]
     [ValidateNotNullorEmpty()]
     [string]$LogName = "Application",
